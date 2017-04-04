@@ -61,13 +61,6 @@
     		<version>${springsecurity.version}</version>
 		</dependency>
 
-		<!-- jsr303 validation -->
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>1.1.0.Final</version>
-		</dependency>
-
 		<!-- Servlet+JSP+JSTL -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
