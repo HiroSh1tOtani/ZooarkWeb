@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Horses Developer - Nuevo blog</title>
+	<meta name="description" content="New blog page" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" sizes="196x196" href="home/favicon/favicon.png">
+
+	<link rel="stylesheet" href="../libs/bower/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../libs/bower/material-design-iconic-font/dist/css/material-design-iconic-font.css">
+	<!-- build:css ../assets/css/app.min.css -->
+	<link rel="stylesheet" href="../libs/bower/animate.css/animate.min.css">
+	<link rel="stylesheet" href="../libs/bower/fullcalendar/dist/fullcalendar.min.css">
+	<link rel="stylesheet" href="../libs/bower/perfect-scrollbar/css/perfect-scrollbar.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.css">
+	<link rel="stylesheet" href="../assets/css/app.css">
+	<!-- endbuild -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300">
+
+	<!-- editor-->
+	<link href="editor/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="editor/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="editor/stylesheets/dante-editor.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="editor/javascripts/deps.js" type="text/javascript"></script>
+	<script src="editor/javascripts/dante-editor.js" type="text/javascript"></script>
+
+</head>
+
+<body class="sb-left">
+	<!--============= start main area -->
+
+	<!-- APP ASIDE ==========-->
+	<aside id="app-aside" class="app-aside left light">
+		<header class="aside-header">
+			<div class="animated">
+				<a href="#" id="app-brand" class="app-brand">
+					<span id="brand-name" class="brand-icon foldable">Horses Dev </span>
+				</a>
+			</div>
+		</header>
+		<!-- #sidebar-header -->
+
+		<div class="aside-user">
+			<!-- aside-user -->
+			<div class="media">
+				<div class="media-left">
+					<div class="avatar avatar-md avatar-circle">
+						<a href="javascript:void(0)"><img class="img-responsive" src="../assets/images/221.jpg" alt="avatar" /></a>
+					</div>
+					<!-- .avatar -->
+				</div>
+				<div class="media-body">
+					<div class="foldable">
+						<h5><a href="javascript:void(0)" class="username">Brian Castillo</a></h5>
+						<ul>
+							<li class="dropdown">
+								<small>Android Developer</small>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /aside-user -->
+		</div>
+		<!-- #aside-user -->
+
+		<div class="aside-scroll">
+			<div id="aside-scroll-inner" class="aside-scroll-inner">
+				<ul class="aside-menu aside-left-menu">
+					<li class="menu-item has-submenu">
+						<a href="javascript:void(0)" class="menu-link submenu-toggle">
+							<span class="menu-icon"><i class="fa fa-home fa-lg"></i></span>
+							<span class="menu-text foldable">Inicio</span>
+						</a>
+					</li>
+					<!-- .menu-item -->
+
+					<li class="menu-item has-submenu">
+						<a href="javascript:void(0)" class="menu-link submenu-toggle">
+							<span class="menu-icon"><i class="fa fa-book fa-lg"></i></span>
+							<span class="menu-text foldable">Blog</span>
+							<span class="menu-caret foldable"><i class="zmdi zmdi-hc-sm zmdi-chevron-right"></i></span>
+						</a>
+						<ul class="submenu">
+							<li><a href="#">Lista</a></li>
+							<li><a href="#">Nuevo</a></li>
+						</ul>
+					</li>
+					<!-- .menu-item -->
+
+				</ul>
+				<hr>
+				<footer id="aside-footer">
+					<ul class="aside-menu aside-left-menu">
+						<li class="menu-item">
+							<a href="#" class="menu-link">
+								<span class="menu-icon"><i class="fa fa-user fa-lg"></i></span>
+								<span class="menu-text foldable">Perfil</span>
+							</a>
+						</li>
+						<!-- .menu-item -->
+
+						<li class="menu-item">
+							<a href="#" class="menu-link">
+								<span class="menu-icon"><i class="fa fa-cog fa-lg"></i></span>
+								<span class="menu-text foldable">Configuracion</span>
+							</a>
+						</li>
+						<!-- .menu-item -->
+
+						<li class="menu-item">
+							<a href="#" class="menu-link">
+								<span class="menu-icon"><i class="fa fa-sign-out fa-lg"></i></span>
+								<span class="menu-text foldable">Salir</span>
+							</a>
+						</li>
+						<!-- .menu-item -->
+					</ul>
+				</footer>
+				<!-- #sidebar-footer -->
+			</div>
+			<!-- .aside-scroll-inner -->
+		</div>
+		<!-- #aside-scroll -->
+	</aside>
+	<!--========== END app aside -->
+
+	<!-- APP NAVBAR ==========-->
+	<nav id="app-navbar" class="app-navbar p-l-lg p-r-md primary">
+		<div id="navbar-header" class="pull-left">
+			<button id="aside-fold" class="hamburger visible-lg-inline-block hamburger--arrowalt is-active js-hamburger" type="button">
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</button>
+			<button id="aside-toggle" class="hamburger hidden-lg hamburger--spin js-hamburger" type="button">
+			<span class="hamburger-box">
+				<span class="hamburger-inner"></span>
+			</span>
+		</button>
+			<h5 id="page-title" class="visible-md-inline-block visible-lg-inline-block m-l-md">Nuevo blog</h5>
+		</div>
+
+	</nav>
+	<!--========== END app navbar -->
+
+	<!-- APP MAIN ==========-->
+	<main id="app-main" class="app-main">
+		<div class="wrap">
+			<section class="app-content">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="widget">
+							<header class="widget-header">
+								<h4 class="widget-title">Mi nuevo blog</h4>
+							</header>
+							<!-- .widget-header -->
+							<hr class="widget-separator">
+							<div class="widget-body">
+								<div id="editor">
+									<h3 id="dante-editor">Mi super titulo</h3>
+									<p>Erase una vez...</p>
+								</div>
+							</div>
+							<!-- .widget-body -->
+						</div>
+						<!-- .widget -->
+					</div>
+					<!-- END column -->
+
+					<div class="col-md-4">
+						<div class="widget">
+							<header class="widget-header">
+								<h4 class="widget-title">Opciones</h4>
+							</header>
+							<!-- .widget-header -->
+							<hr class="widget-separator">
+							<div class="widget-body">
+								<div class="form-group">
+									<label for="maxlength-demo-1">Titulo</label>
+									<input type="text" id="maxlength-1" maxlength="25" class="form-control" data-plugin="maxlength" data-options="{ alwaysShow: true, threshold: 10, warningClass: 'label label-warning', limitReachedClass: 'label label-danger' }">
+								</div>
+								<div class="form-group">
+									<label for="maxlength-demo-1">Descripcion</label>
+									<input type="text" id="maxlength-1" maxlength="50" class="form-control" data-plugin="maxlength" data-options="{ alwaysShow: true, threshold: 10, warningClass: 'label label-warning', limitReachedClass: 'label label-danger' }">
+								</div>
+								<div class="form-group">
+									<label for="maxlength-demo-1">Keywords</label>
+									<input type="text" id="maxlength-1" maxlength="50" class="form-control" data-plugin="maxlength" data-options="{ alwaysShow: true, threshold: 10, warningClass: 'label label-warning', limitReachedClass: 'label label-danger' }">
+								</div>
+								<div class="form-group">
+									<label for="maxlength-demo-1">Url</label>
+									<input type="text" id="maxlength-1" maxlength="25" class="form-control" data-plugin="maxlength" data-options="{ alwaysShow: true, threshold: 10, warningClass: 'label label-warning', limitReachedClass: 'label label-danger' }">
+								</div>
+								<button type="button" class="btn mw-md btn-success">Guardar</button>
+							</div>
+							<!-- .widget-body -->
+						</div>
+						<!-- .widget -->
+					</div>
+					<!-- END column -->
+
+
+				</div>
+			</section>
+			<!-- #dash-content -->
+		</div>
+		<!-- .wrap -->
+
+		<!-- APP FOOTER -->
+		<div class="wrap p-t-0">
+			<footer class="app-footer">
+				<div class="clearfix">
+					<div class="copyright pull-left">Horses Developer 2016 &copy;</div>
+				</div>
+			</footer>
+		</div>
+		<!-- /#app-footer -->
+	</main>
+	<!--========== END app main -->
+
+	<!-- build:js ../assets/js/core.min.js -->
+	<script src="../libs/bower/jquery/dist/jquery.js"></script>
+	<script src="../libs/bower/jquery-ui/jquery-ui.min.js"></script>
+	<script src="../libs/bower/jQuery-Storage-API/jquery.storageapi.min.js"></script>
+	<script src="../libs/bower/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+	<script src="../libs/bower/superfish/dist/js/hoverIntent.js"></script>
+	<script src="../libs/bower/superfish/dist/js/superfish.js"></script>
+	<script src="../libs/bower/jquery-slimscroll/jquery.slimscroll.js"></script>
+	<script src="../libs/bower/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+	<script src="../libs/bower/PACE/pace.min.js"></script>
+	<!-- endbuild -->
+
+	<!-- build:js ../assets/js/app.min.js -->
+	<script src="../assets/js/library.js"></script>
+	<script src="../assets/js/plugins.js"></script>
+	<script src="../assets/js/app.js"></script>
+	<!-- endbuild -->
+	<script src="../libs/bower/moment/moment.js"></script>
+	<script src="../libs/bower/fullcalendar/dist/fullcalendar.min.js"></script>
+	<script src="../assets/js/fullcalendar.js"></script>
+
+	<script type="text/javascript">
+	handler = function(data){
+		console.log("content saved");
+	}
+
+	editor = new Dante.Editor(
+		{
+			api_key: "86c28a410a104c8bb58848733c82f840",
+			el: "#editor",
+			upload_url: "/uploads/new.json",
+			store_url: "/api/save.json",
+			suggest_url: "api/suggest.json",
+			store_success_handler: handler,
+			debug: false
+		}
+	)
+	editor.start()
+	</script>
+</body>
+
+</html>
