@@ -45,23 +45,7 @@
 						<li class="dropdown">
 							<a href="javascript:void(0)" class="dropdown-toggle usertitle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<small style="color:#fff">Web Developer</small>
-								<!--span class="caret"></span-->
 							</a>
-							<!--ul class="dropdown-menu animated flipInY">
-								<li>
-									<a class="text-color" href="http://envato.rathemes.com/index.html">
-										<span class="m-r-xs"><i class="fa fa-home"></i></span>
-										<span>Home</span>
-									</a>
-								</li>
-								<li>
-									<a class="text-color" href="profile.html">
-										<span class="m-r-xs"><i class="fa fa-user"></i></span>
-										<span>Profile</span>
-									</a>
-								</li>
-								
-							</ul-->
 						</li>
 					</ul>
 				</div>
