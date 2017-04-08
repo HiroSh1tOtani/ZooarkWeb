@@ -7,7 +7,7 @@
 	app.defaults = {
 		sidebar: {
 			folded: false,
-			theme: 'light',
+			theme: 'dark',
 			themes: ['light', 'dark']
 		},
 		navbar: {
