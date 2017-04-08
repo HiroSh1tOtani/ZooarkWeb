@@ -172,6 +172,7 @@
 	<script src="<c:url value='/static/libs/bower/jquery-slimscroll/jquery.slimscroll.js' />"></script>
 	<script src="<c:url value='/static/libs/bower/perfect-scrollbar/js/perfect-scrollbar.jquery.js' />"></script>
 	<script src="<c:url value='/static/libs/bower/PACE/pace.min.js' />"></script>
+	<script src="<c:url value='/static/js/general.js' />"></script>
 	<!-- endbuild -->
 
 	<!-- build:js ../assets/js/app.min.js -->
